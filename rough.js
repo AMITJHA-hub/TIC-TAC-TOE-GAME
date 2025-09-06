@@ -53,7 +53,7 @@ yenterbutton.addEventListener("click",()=>{
     if(inputx.value!=""&&inputy.value!=""){
         let yname=inputy.value;
         yenter.classList.add("hide");
-        nameOfY.innerText='O ischosen by: '+yname;
+        nameOfY.innerText='O is chosen by: '+yname;
         nameOfY.classList.add("st");
         for (let boxs of box) {
         boxs.disabled = false;
