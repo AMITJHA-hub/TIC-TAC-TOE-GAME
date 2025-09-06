@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-weight: bold;
+    color: rgb(126, 132, 45);
+    background-color: aqua;
+    border-radius: 20px;
+    margin-bottom: 0PX;
+}
+body{
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 40px;
+    background-color: rgb(229, 247, 200);
+}
+.container{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 350px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+.retbutton{
+    margin: 20px;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(113, 10, 238, 0.372);
+    font-weight: bold;
+
+}
+.retbutton:hover{
+    background-color: rgb(210, 194, 194);
+}
+.stbutton:hover{
+    background-color: rgb(210, 194, 194);
+}
+.stbutton{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgba(5, 245, 1, 0.372);
+    font-weight: bold;
+}
+.winner{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 20px;
+
+}
+.hide{
+    display: none;
+}
+.ybutton,.xbutton{
+    margin: 20px;
+    width: 50px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(113, 10, 238, 0.372);
+    font-weight: bold;
+    font-size: 10px;
+
+}
+.ybutton:hover,.xbutton:hover{
+  background: #45a049;        /* darker green */
+  transform: scale(1.05);     /* slightly bigger */
+  box-shadow: 6px 6px 15px rgba(0,0,0,0.4); /* stronger shadow */
+}
+.st{
+    background-color: black;
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#x{
+    height: 30px;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    border-radius: 20px;
+    border: 3px solid gold;
+    font-size: large;
+    font-weight: bold;
+}
+#y{
+   height: 30px;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    border-radius: 20px;
+    border: 3px solid gold;
+    font-size: large;
+    font-weight: bold;
+}
+.FINISH{
+    margin: 100px 0px 340px 0px;
+}
