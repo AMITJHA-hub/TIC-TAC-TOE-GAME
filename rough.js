@@ -38,7 +38,7 @@ xenterbutton.addEventListener("click",()=>{
     if(inputx.value!=""&&inputy.value!=""){
         let xname=inputx.value;
         xenter.classList.add("hide");
-        nameOfX.innerText='X is chosen by '+xname;
+        nameOfX.innerText='X is chosen by: '+xname;
         nameOfX.classList.add("st");
         for (let boxs of box) {
         boxs.disabled = false; 
@@ -53,7 +53,7 @@ yenterbutton.addEventListener("click",()=>{
     if(inputx.value!=""&&inputy.value!=""){
         let yname=inputy.value;
         yenter.classList.add("hide");
-        nameOfY.innerText='Y ischosen by: '+yname;
+        nameOfY.innerText='O ischosen by: '+yname;
         nameOfY.classList.add("st");
         for (let boxs of box) {
         boxs.disabled = false;
