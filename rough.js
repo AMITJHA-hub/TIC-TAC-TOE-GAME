@@ -122,10 +122,10 @@ const checkwinner= ()=>{
                 winnername.classList.remove("hide");
                 if(pos1=="X"){
                     console.log(pos1);
-                    winnername.innerText=` CONGRATULATIONS!!!! \n ${inputx.value}\n YOU ARE THE WINNER`
+                    winnername.innerText=` CONGRATULATIONS!!!! \n ${inputy.value}\n YOU ARE THE WINNER`
                 }
                 else{
-                    winnername.innerText=`CONGRATULATIONS!!!!\n${inputy.value}\n YOU ARE THE WINNER`
+                    winnername.innerText=`CONGRATULATIONS!!!!\n${inputx.value}\n YOU ARE THE WINNER`
                 }
                 winnername.classList.add("FINISH");
                 disableBoxes();
